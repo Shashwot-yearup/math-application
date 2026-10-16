@@ -14,6 +14,13 @@ public class MathApp {
         double carPrice = 5000;
         double truckPrice = 10000;
         System.out.println("The smallest price is $" + Math.min(carPrice, truckPrice));
+        System.out.println("");
+
+        //finds the area of a circle
+        double radius = 7.25;
+        double area = Math.PI * radius * radius;
+        System.out.printf("Area of the circle = %.2f%n", area);
+        System.out.println("");
         
 
     }
