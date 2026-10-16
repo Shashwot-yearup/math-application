@@ -39,5 +39,11 @@ public class MathApp {
         System.out.printf("Distance = %.2f%n", distance);
         System.out.println("");
 
+        //finds the absoluteValue of a number.
+        double num = -3.8;
+        double absoluteValue = Math.abs(num);
+        System.out.printf("Absolute value = %.1f%n", absoluteValue);
+        System.out.println("");
+
     }
 }
