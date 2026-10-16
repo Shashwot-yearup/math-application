@@ -21,7 +21,23 @@ public class MathApp {
         double area = Math.PI * radius * radius;
         System.out.printf("Area of the circle = %.2f%n", area);
         System.out.println("");
-        
+
+        //finds the area of a squareroot
+        double number = 5.0;
+        double squareRoot = Math.sqrt(number);
+        System.out.printf("Square root = %.2f%n", squareRoot);
+        System.out.println("");
+
+        //prints  the distance between 2 points
+        double x1 = 5;
+        double y1 = 10;
+        double x2 = 85;
+        double y2 = 50;
+
+        double distance = Math.sqrt(
+                Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.printf("Distance = %.2f%n", distance);
+        System.out.println("");
 
     }
 }
